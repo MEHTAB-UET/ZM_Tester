@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 200rem) {
+  html {
+    font-size: 62.5%;
+    /* 10px */
+  }
+}
+
+@media (max-width: 80rem) {
+  html {
+    font-size: 55%;
+    /* 6px */
+  }
+}
+
+@media (min-width: 10rem) and (max-width: 45rem) {
+  html {
+    font-size: 32%;
+    /* 5px */
+  }
+}
